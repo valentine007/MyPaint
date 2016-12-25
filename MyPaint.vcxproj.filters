@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RectShape.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LineShape.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseShape.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RectShape.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LineShape.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseShape.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{23ffea0c-6691-4b47-a2b9-3fd92b0a1553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4e51648c-7c1f-474f-931d-d154c29f5603}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Headers</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
